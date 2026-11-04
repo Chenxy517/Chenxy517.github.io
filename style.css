@@ -9,3 +9,19 @@
 .publication .pub-venue{font-style:italic}
 .publication a{display:inline-block;margin-top:7px;color:#2867a0;font-size:14px;font-weight:650}
 @media(max-width:600px){.publication{grid-template-columns:1fr;gap:5px}}
+
+/* Academic layout revision: text-first research and projects */
+.portrait-inner{padding:0!important;overflow:hidden;display:block!important;min-height:0!important;aspect-ratio:4/5;background:#e7eaf0}
+.portrait-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.simple-list{display:block;max-width:900px}
+.simple-item{display:grid;grid-template-columns:minmax(160px,230px) 1fr;gap:20px;padding:20px 0;border-bottom:1px solid #e3e8ed}
+.simple-item h3{font-size:17px;margin:0;font-weight:650}
+.simple-item p{margin:0;color:#5b6879;line-height:1.75}
+.project-category{margin-top:32px;max-width:930px}
+.project-category>h3{font-size:21px;font-weight:700;padding-bottom:10px;border-bottom:1px solid #cbd6e1;margin:0}
+.project-list-item{padding:21px 0;border-bottom:1px solid #e5eaf0}
+.project-list-item h4{font-size:17px;margin:0 0 8px;font-weight:650}
+.project-list-item p{margin:0 0 9px;color:#596879;line-height:1.75;max-width:790px}
+.project-list-item a{font-size:14px;font-weight:650;color:#2867a0;text-decoration:none}
+.project-list-item a:hover{text-decoration:underline}
+@media(max-width:650px){.simple-item{grid-template-columns:1fr;gap:7px}.project-category{margin-top:24px}}
